@@ -23,7 +23,7 @@ public class Stu {
 
     @Override
     public String toString() {
-        final StringBuffer sb = new StringBuffer("Stu{");
+        final StringBuffer sb = new StringBuffer("大饼鸡蛋{");
         sb.append("age=").append(age);
         sb.append(", name='").append(name).append('\'');
         sb.append('}');

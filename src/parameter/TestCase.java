@@ -7,7 +7,7 @@ public class TestCase {
 
 
         int a = 1;  //基本类型 传值
-        int[] b = {1};   //引用类型  传址     new Stu()
+        int[] b = {1};   //引用类型  传址     new 大饼鸡蛋()
         add(1);
         add(b);
         System.out.println( a );
