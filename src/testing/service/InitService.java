@@ -1,11 +1,11 @@
 package testing.service;
 
 
-import cases.testing.constant.Constant;
-import cases.testing.question.BlankQuestion;
-import cases.testing.question.ChoiceQuestion;
-import cases.testing.question.Question;
-import cases.testing.question.support.Option;
+import testing.constant.Constant;
+import testing.question.BlankQuestion;
+import testing.question.ChoiceQuestion;
+import testing.question.Question;
+import testing.question.support.Option;
 
 public class InitService {
 
@@ -51,7 +51,7 @@ public class InitService {
 			}
 		}
 
-		System.out.println("选择题共 : "+ (choiceAmount) +"道 , 每题 : "+Constant.CHOICE_SCORE+"分 , 共 " + (choiceAmount)*Constant.CHOICE_SCORE + " 分 . ");
+		System.out.println("选择题共 : "+ (choiceAmount) +"道 , 每题 : "+ Constant.CHOICE_SCORE+"分 , 共 " + (choiceAmount)*Constant.CHOICE_SCORE + " 分 . ");
 
 		System.out.println("填空题共 : " + (blankAmount) +"道 , 每空 : " + Constant.BLANK_SCORE + "分 , 共 " + (blankItemAmount) * Constant.BLANK_SCORE + " 分 . ");
 

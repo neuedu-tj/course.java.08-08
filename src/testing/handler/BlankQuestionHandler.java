@@ -1,12 +1,13 @@
 package testing.handler;
 
-import cases.testing.answer.Answer;
-import cases.testing.answer.BlankAnswer;
-import cases.testing.check.Check;
-import cases.testing.constant.Constant;
-import cases.testing.question.BlankQuestion;
-import cases.testing.question.Question;
+
 import org.apache.commons.lang3.ArrayUtils;
+import testing.answer.Answer;
+import testing.answer.BlankAnswer;
+import testing.check.Check;
+import testing.constant.Constant;
+import testing.question.BlankQuestion;
+import testing.question.Question;
 
 
 public class BlankQuestionHandler implements Check {

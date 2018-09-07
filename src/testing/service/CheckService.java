@@ -1,13 +1,13 @@
 package testing.service;
 
 
-import cases.testing.answer.Answer;
-import cases.testing.constant.Constant;
-import cases.testing.handler.BlankQuestionHandler;
-import cases.testing.handler.ChoiceQuestionHandler;
-import cases.testing.question.BlankQuestion;
-import cases.testing.question.ChoiceQuestion;
-import cases.testing.question.Question;
+import testing.answer.Answer;
+import testing.constant.Constant;
+import testing.handler.BlankQuestionHandler;
+import testing.handler.ChoiceQuestionHandler;
+import testing.question.BlankQuestion;
+import testing.question.ChoiceQuestion;
+import testing.question.Question;
 
 public class CheckService {
 

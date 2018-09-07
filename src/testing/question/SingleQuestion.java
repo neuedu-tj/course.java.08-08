@@ -1,8 +1,8 @@
 package testing.question;
 
 
-import cases.testing.question.support.Option;
 import lombok.Data;
+import testing.question.support.Option;
 
 @Data
 public class SingleQuestion extends ChoiceQuestion {

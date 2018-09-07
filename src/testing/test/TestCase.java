@@ -1,12 +1,12 @@
 package testing.test;
 
-import cases.testing.answer.Answer;
-import cases.testing.answer.BlankAnswer;
-import cases.testing.answer.ChoiceAnswer;
-import cases.testing.question.*;
-import cases.testing.question.support.Option;
-import cases.testing.service.CheckService;
-import cases.testing.service.InitService;
+import testing.answer.Answer;
+import testing.answer.BlankAnswer;
+import testing.answer.ChoiceAnswer;
+import testing.question.*;
+import testing.question.support.Option;
+import testing.service.CheckService;
+import testing.service.InitService;
 
 public class TestCase {
 

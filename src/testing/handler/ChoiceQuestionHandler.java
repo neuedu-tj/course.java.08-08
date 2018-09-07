@@ -1,14 +1,14 @@
 package testing.handler;
 
 
-import cases.testing.answer.Answer;
-import cases.testing.answer.ChoiceAnswer;
-import cases.testing.check.Check;
-import cases.testing.constant.Constant;
-import cases.testing.question.MultiQuestion;
-import cases.testing.question.Question;
-import cases.testing.question.SingleQuestion;
 import org.apache.commons.lang3.ArrayUtils;
+import testing.answer.Answer;
+import testing.answer.ChoiceAnswer;
+import testing.check.Check;
+import testing.constant.Constant;
+import testing.question.MultiQuestion;
+import testing.question.Question;
+import testing.question.SingleQuestion;
 
 public class ChoiceQuestionHandler implements Check {
 

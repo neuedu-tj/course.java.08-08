@@ -1,8 +1,8 @@
 package testing.check;
 
 
-import cases.testing.answer.Answer;
-import cases.testing.question.Question;
+import testing.answer.Answer;
+import testing.question.Question;
 
 public interface Check {
 	
