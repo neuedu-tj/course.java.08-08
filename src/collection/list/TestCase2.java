@@ -17,7 +17,6 @@ public class TestCase2 {
         emps.add(e1);
         emps.add(e2);
 
-
         System.out.println( emps.contains(new Emp(1,"tom")) );
 
 
