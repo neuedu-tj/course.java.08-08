@@ -5,6 +5,8 @@ import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import lombok.ToString;
 
+import java.util.Map;
+
 @Data
 @ToString
 @RequiredArgsConstructor
@@ -12,6 +14,7 @@ public class BuyItem {
 
     @NonNull Product product;
     @NonNull int amount;
+    Map<String , String>  detail;  //品类
 
 
     @Override
