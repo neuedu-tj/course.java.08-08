@@ -22,9 +22,9 @@ public class Stu implements Comparable<Stu> {
 
     @Override
     public int hashCode() {   // first
-//        System.out.println("hashcode ~~~ : " + id*name.hashCode());
-//        return id*name.hashCode();
-        return 1;
+        System.out.println("hashcode ~~~ : " + id*name.hashCode());
+        return id*name.hashCode();
+//        return 1;
     }
 
     @Override
@@ -35,7 +35,7 @@ public class Stu implements Comparable<Stu> {
 //
 //        if(s1.getId() == s2.getId()) return true;
 //        else return false;
-        return false;
+        return true;
     }
 
     public Stu() {

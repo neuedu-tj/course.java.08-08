@@ -17,8 +17,10 @@ public class TestCase2 {
 
     public static void main(String[] args) {
 
-        Stu s1 = new Stu(1,"tom");
-        Stu s2 = new Stu(1,"tom");
+        String value1 = new String("tom");
+        String value2 = new String("tom");
+        Stu s1 = new Stu(1, value1);
+        Stu s2 = new Stu(1, value2);
 
 
         Set stus = new HashSet();
