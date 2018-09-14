@@ -12,12 +12,20 @@ public class TestCase {
 
         //ArrayUtils
         //StringUtils
-        int[] arr = {2,3};
 
-        int[] result = ArrayUtils.add(arr, 1);
+        System.out.println(StringUtils.isBlank("\n"));
 
-//        Collections.shuffle(); //  洗牌
-        System.out.println(ArrayUtils.toString( result));
+//        int[] arr = {2,3};
+//
+//        int[] result = ArrayUtils.add(arr, 1);
+//
+////        Collections.shuffle(); //  洗牌
+//        System.out.println(ArrayUtils.toString( result));
+//
+//        String a= "";
+//        if( a ==null && "".equals(a)) {
+//
+//        }
 
     }
 }
