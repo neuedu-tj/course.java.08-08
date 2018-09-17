@@ -1,5 +1,7 @@
 package cases.bank.service;
 
+import java.util.Scanner;
+
 public class IndexService {
 
     public void main() {
@@ -8,7 +10,11 @@ public class IndexService {
         System.out.println("2. 存钱");
         System.out.println("3. 存钱");
 
+        Scanner sc = new Scanner(System.in);
 
+        String choice = sc.next();
+
+        System.out.println("你输入了   , " + choice);
 
     }
 

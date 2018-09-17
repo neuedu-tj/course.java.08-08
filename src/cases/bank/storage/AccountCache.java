@@ -10,6 +10,12 @@ public class AccountCache {
     private  static AccountCache accountCache = new AccountCache();
 
     private Map<String , Account> accountMap = new HashMap<String,Account>();
+    private Account logged ;
+
+
+
+
+
 
     public Map<String, Account> getAccountMap() {
         return accountMap;
